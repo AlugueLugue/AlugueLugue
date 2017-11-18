@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "481342767988",
+    "firebase_url": "https://appaluguelugue.firebaseio.com",
+    "project_id": "appaluguelugue",
+    "storage_bucket": "appaluguelugue.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:481342767988:android:f8e6a4ee7449a487",
+        "android_client_info": {
+          "package_name": "br.com.jacson.aluguelugue"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "481342767988-q2t85t13kt5ib6khds24p0tfpv3db66m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.jacson.aluguelugue",
+            "certificate_hash": "c72ca81c88c795d24e7edd4214fb6e56201b1b27"
+          }
+        },
+        {
+          "client_id": "481342767988-rui4ebacrblcrtvav1df59iaqrcppcf3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6LpKKbEd406fRzfVWdLOIVIMdSl9Qbkg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "481342767988-rui4ebacrblcrtvav1df59iaqrcppcf3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:481342767988:android:d1108412fb40125f",
+        "android_client_info": {
+          "package_name": "alugueluguebrasilnovo.alugueluguebrasil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "481342767988-gfjdp2ise8j8ei7lvpfpop1c1u61icqs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "alugueluguebrasilnovo.alugueluguebrasil",
+            "certificate_hash": "97b122834d23a5041a295dbf569689322f1a9083"
+          }
+        },
+        {
+          "client_id": "481342767988-uaeagbvivffa05si05dctafu7m04r3im.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "alugueluguebrasilnovo.alugueluguebrasil",
+            "certificate_hash": "c72ca81c88c795d24e7edd4214fb6e56201b1b27"
+          }
+        },
+        {
+          "client_id": "481342767988-rui4ebacrblcrtvav1df59iaqrcppcf3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6LpKKbEd406fRzfVWdLOIVIMdSl9Qbkg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "481342767988-rui4ebacrblcrtvav1df59iaqrcppcf3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
