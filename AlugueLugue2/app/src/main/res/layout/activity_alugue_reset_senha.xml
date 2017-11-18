@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:gravity="center"
+    android:background="#ffffff"
+    tools:context="alugueluguebrasilnovo.alugueluguebrasil.Usuario.AlugueResetSenha">
+
+   <ImageView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:background="@mipmap/icon"
+       android:layout_marginBottom="25dp"/>
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:text="Esqueceu sua senha?"
+        android:textColor="#00BFFF"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/infoEsqueceu" />
+
+    <EditText
+        android:id="@+id/emailUserSend"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+    <Button
+        android:id="@+id/btnEnviar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/botao_entrar_style"
+        android:text="Enviar"
+        android:textColor="#FFFFFF"
+        android:onClick="startSendSenha"
+        />
+</LinearLayout>

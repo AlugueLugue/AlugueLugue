@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="alugueluguebrasilnovo.alugueluguebrasil.Anuncio.AluguePublicarAnuncio">
+
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+
+        <TextView
+            android:id="@+id/orderBy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ordenação por"
+            android:textSize="14dp"
+            android:textStyle="bold"/>
+
+        <RadioGroup
+            android:id="@+id/rbGDP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/orderBy"
+            android:layout_below="@+id/orderBy">
+
+            <RadioButton
+                android:id="@+id/rbData"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Data"/>
+
+            <RadioButton
+                android:id="@+id/rbPreco"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Preço" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/TvPreco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/rbGDP"
+            android:layout_below="@+id/rbGDP"
+            android:text="Preço(R$)"
+            android:textSize="14dp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/edtPrMin"
+            android:layout_width="170dp"
+            android:layout_height="70dp"
+            android:layout_alignLeft="@+id/TvPreco"
+            android:layout_below="@+id/TvPreco"
+            android:inputType="textPersonName"
+            android:text="Min"/>
+
+        <EditText
+            android:id="@+id/edtPrMax"
+            android:layout_width="170dp"
+            android:layout_height="70dp"
+            android:layout_below="@+id/TvPreco"
+            android:layout_toRightOf="@+id/edtPrMin"
+            android:inputType="textPersonName"
+            android:text="Max"/>
+
+        <TextView
+            android:id="@+id/TpAnun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/edtPrMin"
+            android:layout_below="@+id/edtPrMin"
+            android:text="Tipo de anunciante"
+            android:textSize="14dp"
+            android:textStyle="bold"/>
+
+        <CheckBox
+            android:id="@+id/Part"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TpAnun"
+            android:layout_below="@+id/TpAnun"
+            android:text="Particular"/>
+
+        <CheckBox
+            android:id="@+id/Prof"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/Part"
+            android:layout_below="@+id/Part"
+            android:text="Profissional"/>
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/botao_entrar_style"
+            android:text="Filtrar"
+            android:textColor="#FFFFFF"
+            android:layout_below="@+id/Prof"
+            android:layout_alignRight="@+id/edtPrMax"
+            android:layout_alignEnd="@+id/edtPrMax"/>
+
+        <Button
+            android:id="@+id/btnsair"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="49dp"
+            android:text="SAIR"
+            android:onClick="logoutUser"
+            />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

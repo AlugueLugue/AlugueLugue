@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginBottom="5dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/termotitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="3dp"
+        android:paddingTop="3dp"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:text="
+Condições de uso, política de privacidade e normas de publicação"/>
+    <TextView
+        android:id="@+id/termotexto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="3dp"
+        android:paddingTop="3dp"
+        android:paddingRight="8dp"
+        android:paddingLeft="8dp"
+        android:textColor="#000000"
+        android:text="
+1. Definições
+\n
+O presente documento tem por objeto estabelecer as Condições Gerais de Uso e Política de Privacidade do portal de Internet ALUGUELUGUE.com.br (http://www.ALUGUELUGUE.com.br) (o *SITE*) e ao website ALUGUELUGUE Direto pertencente à Bom Negócio Atividades de Internet Ltda. (adiante denominada *ALUGUELUGUE*), inscrita no CNPJ/MF sob o número 13.673.743/0002-55. (para contato clique aqui.). \n
+O ALUGUELUGUE Direto powered by TrayCheckout (http://ALUGUELUGUE.com.br/p2p_about.htm) é um gerenciador de pagamento online desenvolvida em parceria com o portal Traycheckout (https://www.traycheckout.com.br) inscrita no CNPJ/MF sob o número 14.338.304/0001-78. (para contato clique aqui.). \n
+As Condições Gerais de Uso não excluem a possibilidade de determinados serviços do SITE, por suas características particulares, serem submetidos, além das Condições Gerais de Uso, às suas próprias condições de uso (as *Condições Particulares*).
+\n \n
+2. Condições de acesso e uso do site\n
+A utilização de qualquer serviço disponível no ALUGUELUGUE Direto atribui, a quem se utilizar de tais serviços, a condição de Usuário (o *Usuário*). \n
+A utilização por parte do Usuário de qualquer dos serviços disponibilizado pelo ALUGUELUGUE Direto importará na sua adesão e aceitação expressas às Condições Gerais de Uso, em qualquer dos suportes digitais em que se encontre, desde o momento em que o Usuário acesse o mesmo, assim como às Condições Particulares que, de acordo com o caso, sejam aplicáveis. \n
+O Usuário concorda que somente deverá realizar operações se tiver condições econômicas de arcar com os pagamentos, custos e despesas relativos tanto às operações realizadas, quanto à utilização dos serviços da ALUGUELUGUE Direto. Aplicam-se ainda aos usuários dos serviços ALUGUELUGUE Direto os Termos de Uso e Privacidade do ALUGUELUGUE, acessíveis diretamente da Home Page do ALUGUELUGUE.com.br. \n
+2.1 Para a utilização dos Serviços disponibilizados pelo ALUGUELUGUE Direto, o Usuário deverá efetuar seu Cadastro para identificação no portal ALUGUELUGUE. Para o Cadastro de um Usuário como Pessoa Física na Plataforma ALUGUELUGUE Direto, deverão ser fornecidos dados como nome completo, endereço, CPF, telefone, entre outros dados. Para o Cadastro de um Usuário como Pessoa Jurídica na Plataforma ALUGUELUGUE Direto, deverão ser fornecidos dados como CNPJ, Razão social, Nome Fantasia, entre outros. \n
+2.2 Os Dados Cadastrais inseridos no formulário deverão ser completos, preenchendo-se todos os espaços obrigatórios com informações exatas, precisas e verdadeiras, sendo o Usuário o único responsável pelos dados fornecidos. \n
+2.3 O usuário é o único responsável por qualquer operação realizada em sua conta no ALUGUELUGUE Direto, devendo o mesmo, manter em sigilo suas senhas, de forma que o ALUGUELUGUE Direto não será em hipótese alguma responsável por quaisquer prejuízos causados ao usuário ou a terceiros, por divulgação ou utilização indevida destas. \n
+2.4 Ao efetuar o cadastro o Usuário terá simultaneamente criado uma conta no parceiro Traycheckout (https://www.traycheckout.com.br), o mesmo será responsável por todas as transações e processos de disputa relativas ao pagamento. \n
+2.5 O Usuário poderá possuir apenas um dos 2 (dois) tipos distintos de Conta, quais sejam: a Conta Pessoa Física ou a Conta Pessoa Jurídica. \n
+2.6 A Conta ALUGUELUGUE Direto, seja ela uma Conta Pessoa Física ou Pessoa Jurídica é única e intransferível, sendo atribuída a um único Usuário. Este Usuário não poderá permitir o uso de sua Conta por quaisquer terceiros. \n
+2.6.1 O ALUGUELUGUE Direto não solicita em nenhuma hipótese, o email e senha dos usuários cadastrados em sua plataforma. \n
+2.7 Para efetuar um pagamento, o Usuário deverá efetuar seu cadastro no ALUGUELUGUE Direto e estar de acordo com os Termos de Uso e cobrança vigentes. \n
+2.8 O Usuário poderá ter a sua conta bloqueada a qualquer momento, sempre que o ALUGUELUGUE Direto e/ou parceiro Traycheckout, julgue que o USUÁRIO está agindo de modo contrário a boa-fé ou está colocando em risco a veracidade das transações feitas na plataforma ALUGUELUGUE Direto. v
+2.9. O Usuário deverá cumprir todas as disposições dos contratos que celebrar com outros usuários do ALUGUELUGUE Direto. O Usuário, quando estiver agindo como comprador, deverá informar-se do preço e de todos os custos e despesas envolvidos na operação, bem como das condições de pagamento e das demais cláusulas e condições do contrato de compra, e deverá cumpri-las rigorosamente. Da mesma forma, quando o Usuário estiver agindo como vendedor, somente deverá vender produtos ou serviços cuja entrega possa garantir, cumprindo rigorosamente todas as cláusulas e condições do contrato de venda, especialmente as referentes ao prazo de entrega e à garantia. \n
+2.10. O Usuário, quando estiver agindo como vendedor de produtos ou serviços, deverá cumprir rigorosamente todas as disposições legais e regulamentares aplicáveis à sua atividade, em especial as referentes à proteção do consumidor, inclusive com respeito à oferta, à publicidade e ao fornecimento dos produtos e serviços ofertados, devendo assumir a integral responsabilidade pelos riscos, defeitos, vícios de qualidade e vícios de quantidade dos produtos ou serviços ofertados. \n
+2.11 Todas as transações efetuadas dentro da plataforma ALUGUELUGUE Direto, estão livres de qualquer cobrança, ou taxa relativo ao seu uso. \n
+2.11.1 Para compras parceladas feitas através do cartão de crédito, existe uma taxa de 2.99% /mês. \n
+2.11.2 O Usuário concorda desde já com as condições de remuneração para a utilização do serviço disponibilizado pela ALUGUELUGUE DIRETO através do Traycheckout, se obrigando, portanto, a remunerar o ALUGUELUGUE Direto, no momento de retirada de valor de sua conta ALUGUELUGUE Direto para qualquer Instituição financeira, previamente cadastrada e validade na plataforma ALUGUELUGUE Direto, no valor correspondente a 5% (cinco por cento) por cada retirada. \n \n
+3. Gerenciamento do pagamento \n
+3.1 A Solicitação de Gerenciamento de pagamento será formalizada a partir do envio de um cobrança, por parte do Usuário, para qualquer Remetente com um e-mail devidamente válido. \n
+3.2 O ALUGUELUGUE Direto reserva-se o direito de não processar aquelas Solicitações de Gerenciamento de Pagamento que: \n
+(i) estejam incompletas; ou \n
+(ii) contenham discrepâncias entre os dados fornecidos pelos Usuários e os dados inseridos efetivamente no Cadastro; ou \n
+(iii) que o ALUGUELUGUE Direto, a seu exclusivo critério, considere envolver algum risco; ou \n
+(iv) qualquer transação que não seja autorizada pelo Banco. \n
+3.3 O ALUGUELUGUE Direto não será responsável por ordens, instruções e/ou Solicitações de Gerenciamento de Pagamento equivocadas ou incompletas causadas por: \n
+(i) introdução errônea do e-mail;
+(ii) informação errônea ou incompleta do Usuário Destinatário, da operação de pagamento e/ou quaisquer outros dados fornecidos pelo Usuário Remetente. \n \n
+4. Pagamento \n
+4.1 Os pagamentos creditados na Conta estarão disponíveis a partir do décimo quinto (15º) dia após a data de confirmação do pagamento. \n
+4.2 O ALUGUELUGUE Direto reserva-se o direito de bloquear o saldo da conta do Usuário por: \n
+(i) suspeita de fraude; ou \n
+(ii) cobrança indevida; ou \n
+(iii) uso indevido da plataforma; ou \n
+(iv) resolução do processo de disputa, ou quaisquer outras que o ALUGUELUGUE Direto julgue não estar de acordo com nossos Termos de Uso. \n
+4.3 A contestação de uma compra poderá ser iniciada em até quatorze (14) dias corridos após a confirmação do pagamento. \n
+4.4 O Dinheiro de Usuário creditado na Conta Arrecadadora ALUGUELUGUE Direto não gera qualquer tipo de rendimentos (juros e/ ou correção monetária) para o Usuário, sendo certo que o Usuário poderá dispor livremente deste dinheiro para realizar as operações descritas no presente Termo de Uso, uma vez que tal dinheiro esteja disponível em sua Conta ALUGUELUGUE Direto. \n \n
+5. Retirada do dinheiro do Usuário da Conta \n
+5.1Uma vez disponibilizado o dinheiro do Usuário em sua Conta ALUGUELUGUE Direto, poderá este optar por: \n
+(i) retirar todo ou parte do saldo disponível em sua Conta ALUGUELUGUE Direto; ou \n
+(ii) manter o dinheiro na Conta ALUGUELUGUE Direto para utilizá-lo em outras operações por meio da própria Plataforma ALUGUELUGUE Direto. \n
+5.2 As retiradas de dinheiro do Usuário serão realizadas por meio de transferência bancária da Conta Arrecadadora para a Conta Bancária (corrente ou poupança) indicada oportunamente pelo Usuário. Essa transferência poderá ocorrer em até 5 (cinco) dias úteis subsequentes à solicitação de retirada, com um taxa de 5% (cinco por cento) por retirada. \n
+5.3 As retiradas de dinheiro do Usuário somente se realizarão por meio do Sistema Financeiro Nacional para uma conta bancária devidamente identificada por CPF ou CNPJ do destinatário. \n
+5.4 Após solicitar a retirada do dinheiro para uma conta bancária previamente cadastrada no ALUGUELUGUE Direto, o usuário tem que aguardar um prazo de até 24h analise e liberação do valor. \n
+5.5 Limitações para retirada de dinheiro: A solicitação de retirada de dinheiro existente em uma Conta ALUGUELUGUE Direto não verificada para uma Conta Bancária de titularidade de uma pessoa física estará limitada ao montante total de R$ 500,00 (quinhentos reais) e para uma conta Bancária de titularidade de uma pessoa jurídica o limite total é de R$ 1.000,00 (mil reais). v
+5.6 Para ter o status de conta verificada o usuário precisa fazer o envio dos seguinte documentos: \n
+Conta Pessoa Física: Comprovante de conta bancária (Extrato bancário ou folha de cheque, onde conste o nome do banco, código da agência, número da conta bancária e o nome do correntista), comprovante de identidade, comprovante de residência (com no máximo três meses de emissão) \n
+Conta Pessoa Jurídica: comprovante de identidade, comprovante de residência (com no máximo três meses de emissão), Comprovante de conta bancária (Extrato bancário ou folha de cheque, onde conste o nome do banco, código da agência, número da conta bancária e titularidade em nome da pessoa jurídica cadastrada), comprovante de Constituição da Empresa (Contrato social com alterações ou consolidação) \n
+Após o envio dos documentos, o usuário precisa aguardar um prazo de até 2 dias úteis para análise e aprovação da documentação. \n \n
+6. Chargeback (Contestação de débito) \n
+6.1 Caso o Usuário Destinatário tenha realizado a retirada do dinheiro e o Usuário Remetente tenha realizado um cancelamento, reversão ou chargeback sobre os valores envolvidos na operação após o envio, esses valores serão descontados e debitados da Conta ALUGUELUGUE Direto do Usuário Destinatário do dinheiro. Em virtude disso, o Usuário autoriza expressamente o ALUGUELUGUE Direto a reter de sua Conta ALUGUELUGUE Direto o dinheiro necessário para cobrir o cancelamento, a reversão ou chargeback. Se o Usuário não dispuser de dinheiro suficiente em sua Conta ALUGUELUGUE Direto, o ALUGUELUGUE Direto está autorizado a reter tais valores de qualquer outro ingresso futuro de dinheiro em sua Conta ALUGUELUGUE Direto. \n
+6.2 O Usuário Destinatário deverá, quando solicitado pelo ALUGUELUGUE Direto, fornecer documentação referente à contestação do chargeback, cancelamento ou reversão. A documentação para comprovação da entrega do produto e/ou serviço deverá necessariamente ser: Nota Fiscal em nome do comprador, Aviso de Recebimento dos Correios (AR), comprovante de entrega da transportadora com assinatura do receptor, ou o comprovante de entrega fornecido pelo ALUGUELUGUE Direto. Comprovantes de entrega que não contenham a assinatura do receptor não serão suficientes em casos onde o recebimento do produto e/ou serviço seja contestado. A falta de apresentação desta documentação será entendida pelo ALUGUELUGUE Direto como falta de entrega do produto e/ou serviço. \n
+6.3 Para contestar o chargeback, cancelamento ou reversão, o Usuário Destinatário deverá reunir provas que endossem e confirmem seu relato. O fornecimento de tais documentos não implicará que o dinheiro do Usuário seja novamente creditado em sua Conta ALUGUELUGUE Direto. Sempre que efetuar uma venda, certifique-se que o comprador assinou o comprovante de entrega da transportadora e guarde-o para futuras consultas Guarde todos os comprovantes das suas negociações pois o ALUGUELUGUE Direto poderá solicitá-los eventualmente. v
+6.3.1 O Vendedor estará protegido do chargeback quando: \n
+Enviar comprovação válida de entrega de mercadoria e ou serviço no prazo de 36 horas quando solicitado; \n
+Comprovar a participação do comprador na especificação de produto e ou serviço; \n
+Possuir AR (Aviso de Recebimento) assinado pelo Comprador; \n
+Possuir comprovante de entrega ALUGUELUGUE Direto, datado e assinado pelo comprador; \n
+Informar o código válido do rastreio de envio de mercadoria (confirmado pelo site dos Correios e transportadora); \n
+Efetuar a entrega do produto apenas nos endereços cadastrados na ALUGUELUGUE DIRETO; \n
+Enviar toda documentação solicitada pela ALUGUELUGUE DIRETO para que possamos efetuar a contestação do chargeback. \n
+6.3.2. O Vendedor poderá ser debitado pelo chargeback quando: \n
+Não enviar resposta aos questionamentos de cobrança no prazo de 36 horas se solicitado; \n
+Não informar AR, código de rastreamento inválido (Correios e transportadoras), comprovante de entrega ALUGUELUGUE Direto e ou sem assinatura do recebedor; \n
+Efetuar a entrega do produto em endereços divergentes aos cadastrados no ALUGUELUGUE DIRETO; \n
+Não efetuar o cancelamento por solicitação da ALUGUELUGUE DIRETO ou TRAYCHECKOUT de uma transação já aprovada a qual posteriormente seja identificada como fraude; \n
+Mercadorias e serviços não estão de acordo com as descritas no anúncio no site; \n
+A mercadoria enviada pelo vendedor estiver avariada, com vício que não permita a utilização almejada ou ainda extraviada por qualquer motivo; \n
+O Comprador comprovar que devolveu a mercadoria ao Vendedor e/ou tentativa de resolução sem resposta do Vendedor; \n
+Houver casos não previstos, após avaliação ao exclusivo critério da ALUGUELUGUE DIRETO. \n
+6.4. O contrato entre o Usuário e a ALUGUELUGUE Direto poderá ser rescindido, de pleno direito, independentemente de qualquer notificação ou interpelação, judicial ou extrajudicial, no caso de descumprimento pelo usuário das condições e termos contratuais. \n
+6.5. A ALUGUELUGUE Direto se reserva o direito de modificar as regras acima a qualquer momento, a seu exclusivo critério, independente de prévia notificação. \n
+Confira os Termos de Uso e Privacidade e Regras de Anúncio da ALUGUELUGUE.com.br. \n\n
+7. Disputa \n
+7.1 Se o vendedor não cumprir com sua parte na negociação, você poderá abrir uma disputa. Ou seja você poderá contestar a sua compra sempre que houver alguma divergência sobre a transação em um prazo de até 14 dias após a aprovação da cobrança, por exemplo: Se um pagamento foi aprovado no dia 02/09, o comprador terá entre os dias 04/09 e 15/09 para abrir uma disputa. Caso ela não seja aberta, o valor ficará disponível na conta ALUGUELUGUE Direto do vendedor no dia 16/09. \n
+7.2 Quando aberta uma disputa, se comprador e vendedor não chegarem a um acordo em um prazo de 5 dias a TrayCheckout (Parceira do ALUGUELUGUE Direto) intervém na negociação. \n"/>
+</LinearLayout>
+</ScrollView>

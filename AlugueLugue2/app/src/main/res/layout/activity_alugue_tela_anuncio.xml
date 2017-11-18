@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context="alugueluguebrasilnovo.alugueluguebrasil.Anuncio.AlugueTelaAnuncio">
+<LinearLayout
+    android:id="@+id/bar"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/colorPrimary"
+    android:orientation="horizontal">
+    <TextView
+        android:id="@+id/btVoltar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_gravity="center_vertical"
+        android:textSize="20dp"
+        android:background="@drawable/voltarimg"
+        android:backgroundTint="#ffffff"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:layout_weight="6"
+        />
+    <TextView
+        android:id="@+id/tituloan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Titulo"
+        android:layout_marginLeft="4dp"
+        android:layout_gravity="center_vertical"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:layout_weight="3"
+        />
+    <ImageButton
+        android:id="@+id/editAnuncio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="6"
+        android:visibility="invisible"
+        android:background="@android:drawable/ic_menu_edit"/>
+
+
+    <ImageButton
+        android:id="@+id/excanuncio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="6"
+        android:visibility="invisible"
+        android:background="@android:drawable/ic_menu_delete"/>
+
+</LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/bar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="250dp">
+
+                <LinearLayout
+                    android:id="@+id/scrollanuncio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/add_imganuncio"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:background="#fff"
+                        android:padding="1dp"
+                        android:layout_alignParentTop="true"
+                        android:adjustViewBounds="true"
+                        android:layout_gravity="center"
+                        android:src="@drawable/addimg" />
+
+                    <ImageView
+                        android:id="@+id/add_imganuncio1"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:adjustViewBounds="true"
+                        android:background="#fff"
+                        android:padding="1dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/addimg" />
+
+                    <ImageView
+                        android:id="@+id/add_imganuncio2"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:adjustViewBounds="true"
+                        android:background="#fff"
+                        android:padding="1dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/addimg" />
+
+                    <ImageView
+                        android:id="@+id/add_imganuncio3"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:adjustViewBounds="true"
+                        android:background="#fff"
+                        android:padding="1dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/addimg" />
+
+                    <ImageView
+                        android:id="@+id/add_imganuncio4"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:adjustViewBounds="true"
+                        android:background="#fff"
+                        android:padding="1dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/addimg" />
+
+                    <ImageView
+                        android:id="@+id/add_imganuncio5"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:adjustViewBounds="true"
+                        android:background="#fff"
+                        android:padding="1dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/addimg" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/iduser"
+                    android:layout_width="wrap_content"
+                    android:visibility="invisible"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/txt_dataanuncio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:hint="Data"
+                    android:layout_alignParentRight="true"
+                    android:singleLine="true"
+                    android:textColor="#000000"
+                    android:textSize="10sp" />
+                <TextView
+                    android:id="@+id/txt_tituloanuncio"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="15dp"
+                    android:hint="Titulo"
+                    android:singleLine="true"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/preco"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:hint="preco"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_toRightOf="@+id/txt_tituloanuncio"
+                    />
+
+
+
+                <TextView
+                    android:id="@+id/txt_descanuncio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txt_tituloanuncio"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="3dp"
+                    android:hint="Descrição do aluguel..."
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/txt_endanuncio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txt_descanuncio"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="3dp"
+                    android:hint="Endereço do aluguel..."
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/txt_cepanuncio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txt_endanuncio"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="3dp"
+                    android:hint="CEP do aluguel..."
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/txt_bairroanuncio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txt_endanuncio"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_toEndOf="@+id/txt_cidadeanuncio"
+                    android:hint="Bairro do aluguel..."
+                    android:paddingBottom="5dp"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/txt_cidadeanuncio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txt_cepanuncio"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="13dp"
+                    android:hint="Cidade do aluguel..."
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/txt_ufanuncio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txt_cepanuncio"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="13dp"
+                    android:layout_toRightOf="@+id/txt_cidadeanuncio"
+                    android:hint="Estado do aluguel..."
+                    android:textColor="#000000" />
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn_chat_anuncio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/botao_entrar_style"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Chat"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="25dp" />
+</RelativeLayout>
