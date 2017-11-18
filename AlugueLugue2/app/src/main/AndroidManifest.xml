@@ -1,25 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="br.com.jacson.aluguelugue">
+    package="alugueluguebrasilnovo.alugueluguebrasil">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/icone"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/icone"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".telaPrincipal">
+        <activity android:name=".Main.AlugueMain"
+            android:parentActivityName=".Usuario.AlugueMinhaConta"/>
+        <activity android:name=".Anuncio.AluguePublicarAnuncio"
+            android:parentActivityName=".Main.MainActivity"/>
+        <activity
+            android:name=".Main.AlugueSplashScreen"
+            android:excludeFromRecents="false">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Anuncio.AlugueTelaAnuncio"
+            android:parentActivityName=".Main.MainActivity"/>
         <activity
-            android:name=".menuLate"
-            android:label="@string/title_activity_menu_late"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:name=".Main.MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="alugueluguebrasilnovo.alugueluguebrasil.MainAcitivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Usuario.AlugueTelaLogin"
+            android:parentActivityName=".Main.MainActivity"/>
+        <activity
+            android:name=".Usuario.AlugueTelaCadUsuario"
+            android:label="Criar Conta"
+            android:parentActivityName=".Usuario.AlugueTelaCadUsuario">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Usuario.AlugueTelaCadUsuario" />
+        </activity>
+        <activity
+            android:name=".Anuncio.AlugueFiltros"
+            android:label="Filtros" />
+        <activity android:name=".Usuario.AlugueCadCnpj" />
+        <activity
+            android:name=".Chat.AlugueChatAnuncio"
+            android:parentActivityName=".Anuncio.AlugueTelaAnuncio" />
+        <activity android:name=".Usuario.AlugueResetSenha"
+            android:parentActivityName=".Usuario.AlugueTelaLogin"/>
+        <activity
+            android:name=".Anuncio.AlugueEditarAnuncio"
+            android:parentActivityName=".Main.AlugueMain" />
+        <activity android:name=".Chat.AlugueListaConversa"
+            android:parentActivityName=".Main.MainActivity"/>
+        <activity
+            android:name=".Usuario.AlugueMinhaConta"
+            android:parentActivityName=".Main.MainActivity" />
+
+        <activity
+            android:name=".Usuario.AlugueEditarCadastro"
+            android:parentActivityName=".Usuario.AlugueMinhaConta" />
+        <activity android:name=".Usuario.AluguePerfilUsuario"></activity>
     </application>
 
 </manifest>
